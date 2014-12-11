@@ -12,11 +12,11 @@ Using a virtual environment can be very interesting in several situations:
 * You need to install packages without the need to ask for permissions (on a shared host)
 
 
-*VirtualEnv page:*
+**VirtualEnv page:**
 https://virtualenv.pypa.io/en/latest/index.html
 
 
-*Downloads:*
+**Downloads:**
 https://pypi.python.org/pypi/virtualenv
 
 
