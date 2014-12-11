@@ -101,9 +101,9 @@ A profile named ''server01'' was created.
 
 Within the vim editor, set the file like:
 
-* **To start an insertion on vim press "i"**
-* **To save and quit vim first press "escape" then type ":wq"**
-* **To quit without saving press "escape" and then "q!"**
+* *To start an insertion on vim press "i"*
+* *To save and quit vim first press "escape" then type ":wq"*
+* *To quit without saving press "escape" and then "q!"*
 
 
 <pre>
