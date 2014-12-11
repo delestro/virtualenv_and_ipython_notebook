@@ -27,7 +27,7 @@ https://pypi.python.org/pypi/virtualenv
 First access the host using a '''ssh''' conection:
 
 <pre>
-ssh username@bioclusts01.bioclust.biologie.ens.fr
+ssh username@host.foo
 </pre>
 
 Create a folder to keep all your virtual enviroments:
