@@ -100,7 +100,11 @@ vim ~/.ipython/profile_server01/ipython_notebook_config.py
 A profile named ''server01'' was created.
 
 Within the vim editor, set the file like:
-(to start an insertion on vim press "i")
+**
+To start an insertion on vim press "i"
+To save and quit vim first press "escape" then type ":wq"
+To quit without saving press "escape" and then "q!"
+**
 
 <pre>
 c = get_config()
@@ -118,7 +122,7 @@ c.NotebookApp.webapp_settings = {'static_url_prefix':'/notebookname/static/'}
 
 Use the hashed password created before and a random port number. Also use choose a name for your access on "notebookname"
 
-To save and quit vim first press "escape" then type ":wq"
+
 
 You now should be able to start the Ipython notebook:
 
