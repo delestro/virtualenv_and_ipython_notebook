@@ -58,11 +58,11 @@ source activate
 
 After activation your console should look like this:
 
-''(Env01)username@bioclusts01:~/myfolder/Env01/bin$''
+**(Env01)username@bioclusts01:~/myfolder/Env01/bin$**
 
 This means we are currently using the virtual environment "Env01"
 
-= IPython =
+##IPython
 
 Now we're able to install IPython (together with other essential libraries) on our virtual enviroment:
 
@@ -74,7 +74,7 @@ The download and installation should take a few minutes.
 
 After the installation is complete, we can start to configure the Notebook server.
 
-= Notebook =
+##Notebook
 
 First of all, we need to create a hashed password to use with the notebook. Open IPython and follow:
 
@@ -100,6 +100,7 @@ vim ~/.ipython/profile_server01/ipython_notebook_config.py
 A profile named ''server01'' was created.
 
 Within the vim editor, set the file like:
+(to start an insertion on vim press "i")
 
 <pre>
 c = get_config()
@@ -117,7 +118,7 @@ c.NotebookApp.webapp_settings = {'static_url_prefix':'/notebookname/static/'}
 
 Use the hashed password created before and a random port number. Also use choose a name for your access on "notebookname"
 
-To save and quit vim first press '''escape''' then type ''':wq'''
+To save and quit vim first press "escape" then type ":wq"
 
 You now should be able to start the Ipython notebook:
 
