@@ -58,7 +58,7 @@ source activate
 
 After activation your console should look like this:
 
-**(Env01)username@bioclusts01:~/myfolder/Env01/bin$**
+**(Env01)username@host:~/myfolder/Env01/bin$**
 
 This means we are currently using the virtual environment "Env01"
 
@@ -94,17 +94,21 @@ Next, we need to create an IPython configuration file, and use vim to edit.
 
 <pre>
 ipython profile create server01
-vim ~/.ipython/profile_server01/ipython_notebook_config.py
 </pre>
 
 A profile named ''server01'' was created.
 
-Within the vim editor, set the file like:
+Then use **vim** to edit the config file
 
 * *To start an insertion on vim press "i"*
 * *To save and quit vim first press "escape" then type ":wq"*
 * *To quit without saving press "escape" and then "q!"*
 
+<pre>
+vim ~/.ipython/profile_server01/ipython_notebook_config.py
+</pre>
+
+Within the vim editor, set the file like:
 
 <pre>
 c = get_config()
