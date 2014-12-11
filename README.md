@@ -3,7 +3,7 @@ VirtualEnv and Ipython Notebook
 
 How to set up an virtual environment  on a host, working together with IPython Notebook
 
-#Virtual Environment
+##Virtual Environment
 
 Using a virtual environment can be very interesting in several situations:
 
@@ -22,7 +22,7 @@ https://virtualenv.pypa.io/en/latest/index.html
 https://pypi.python.org/pypi/virtualenv
 
 
-# Download and activation
+##Download and activation
 
 First access the host using a '''ssh''' conection:
 
