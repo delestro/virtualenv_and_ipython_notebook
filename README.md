@@ -24,7 +24,7 @@ https://pypi.python.org/pypi/virtualenv
 
 ##Download and activation
 
-First access the host using a '''ssh''' conection:
+First access the host using a *ssh* conection:
 
 <pre>
 ssh username@host.foo
