@@ -13,12 +13,10 @@ Using a virtual environment can be very interesting in several situations:
 
 
 *VirtualEnv page:*
-
 https://virtualenv.pypa.io/en/latest/index.html
 
 
 *Downloads:*
-
 https://pypi.python.org/pypi/virtualenv
 
 
